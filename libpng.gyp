@@ -9,10 +9,10 @@
         'product_name': 'png-2',
         'type': '<(library)',
         'dependencies': [
-          '../../deps/node/deps/zlib/zlib.gyp:zlib'
+          '../../deps/zlib/zlib.gyp:zlib'
         ],
         'include_dirs': [
-          '../../deps/node/deps/zlib'
+          '../../deps/zlib'
         ],
         'defines': [
           'CHROME_PNG_WRITE_SUPPORT',
