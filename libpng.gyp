@@ -12,7 +12,8 @@
           '../../deps/zlib/zlib.gyp:zlib'
         ],
         'include_dirs': [
-          '../../deps/zlib'
+          '../../deps/zlib',
+					'.',
         ],
         'defines': [
           'CHROME_PNG_WRITE_SUPPORT',
